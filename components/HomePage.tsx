@@ -51,7 +51,7 @@ function HomePage() {
                     <div className="main_heading">Hello</div>
                     <div>Thanks for visiting!</div>
                     <div className="my_intro">
-                        I'm Kai, currently a year 2 cs student at NTU, an
+                        I am Kai, currently a year 2 cs student at NTU, an
                         aspiring Software Engineer, interested in Frontend /
                         Machine Learning Engineering
                     </div>
