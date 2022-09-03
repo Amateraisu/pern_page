@@ -28,7 +28,13 @@ function NavButtons({
                     justify-content: center;
                     width: 120px;
                     height: 60px;
-                    gap: 10px;
+
+                    cursor: pointer;
+                }
+
+                .wrapper:hover {
+                    background: white;
+                    transition: 0.5s ease-in-out;
                 }
 
                 .tag {
@@ -38,6 +44,22 @@ function NavButtons({
                     gap: 5px;
                     font-size: 18px;
                     font-weight: 500;
+                }
+
+                /* Ripple effect */
+                .wrapper {
+                    background-position: center;
+                    transition: background 1s;
+                }
+                .wrapper:hover {
+                    background: rgba(250, 200, 200, 0.3)
+                        radial-gradient(circle, transparent 10%, #47a7f5 10%)
+                        center/15000%;
+                }
+                .wrapper:active {
+                    background-color: #6eb9f7;
+                    background-size: 100%;
+                    transition: background 0s;
                 }
             `}</style>
         </section>

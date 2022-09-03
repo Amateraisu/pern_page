@@ -51,8 +51,8 @@ function NavBar() {
                         display: flex;
                         align-items: center;
                         justify-content: space-around;
-                        gap: 20px;
-                        padding-right: 20px;
+
+                        padding-right: 50px;
                     }
 
                     .profile_picture {
