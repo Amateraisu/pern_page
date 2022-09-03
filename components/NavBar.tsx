@@ -1,3 +1,4 @@
+/// <reference types="styled-jsx" />
 import Image from "next/image";
 import NavButtons from "./navbar_buttons/NavButtons";
 
@@ -28,30 +29,6 @@ const buttonObjects: buttonObject[] = [
 function NavBar() {
     return (
         <section>
-            <div className="wrapper">
-                <div className="wrapper_left">Kai</div>
-
-                <div className="wrapper_right">
-                    {buttonObjects.map(
-                        (buttonObject: buttonObject, index: number) => {
-                            return (
-                                <NavButtons
-                                    imageDirectory={buttonObject.imageDirectory}
-                                    imageLink={buttonObject.imageLink}
-                                    textContent={buttonObject.textContent}
-                                />
-                            );
-                        }
-                    )}
-                    <div className="profile_picture">
-                        <Image
-                            src="/images/my_face_lol.jpg"
-                            width={50}
-                            height={50}
-                        />
-                    </div>
-                </div>
-            </div>
             <style jsx>
                 {`
                     .wrapper {
@@ -87,6 +64,31 @@ function NavBar() {
                     }
                 `}
             </style>
+            <div className="wrapper">
+                <div className="wrapper_left">Kai</div>
+
+                <div className="wrapper_right">
+                    {buttonObjects.map(
+                        (buttonObject: buttonObject, index: number) => {
+                            return (
+                                <NavButtons
+                                    key={index}
+                                    imageDirectory={buttonObject.imageDirectory}
+                                    imageLink={buttonObject.imageLink}
+                                    textContent={buttonObject.textContent}
+                                />
+                            );
+                        }
+                    )}
+                    <div className="profile_picture">
+                        <Image
+                            src="/images/my_face_lol.jpg"
+                            width={50}
+                            height={50}
+                        />
+                    </div>
+                </div>
+            </div>
         </section>
     );
 }

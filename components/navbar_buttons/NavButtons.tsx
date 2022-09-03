@@ -1,4 +1,5 @@
 import Image from "next/image";
+/// <reference types="styled-jsx" />
 
 interface NavButtonsProps {
     imageLink: string;

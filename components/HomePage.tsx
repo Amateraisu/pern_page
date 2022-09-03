@@ -1,18 +1,9 @@
 import Image from "next/image";
+/// <reference types="styled-jsx" />
 
 function HomePage() {
     return (
         <section>
-            <div className="wrapper">
-                <div className="image_wrapper">
-                    <Image
-                        src="/images/HomePage.jpg"
-                        alt="backgroundHome"
-                        width="1000"
-                        height="500"
-                    />
-                </div>
-            </div>
             <style jsx>
                 {`
                     .test {
@@ -29,6 +20,16 @@ function HomePage() {
                     }
                 `}
             </style>
+            <div className="wrapper">
+                <div className="image_wrapper">
+                    <Image
+                        src="/images/HomePage.jpg"
+                        alt="backgroundHome"
+                        width="1000"
+                        height="500"
+                    />
+                </div>
+            </div>
         </section>
     );
 }
