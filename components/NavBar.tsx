@@ -33,10 +33,11 @@ function NavBar() {
                 {`
                     .wrapper {
                         height: 60px;
-                        background-color: #12a4d9;
+                        background-color: #161e30;
                         display: flex;
                         justify-content: space-between;
                         margin: 0;
+                        color: white;
                     }
 
                     .wrapper_left {

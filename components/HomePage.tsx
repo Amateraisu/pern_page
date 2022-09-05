@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ContactMe from "./ContactMe";
 /// <reference types="styled-jsx" />
 
 function HomePage() {
@@ -32,13 +33,14 @@ function HomePage() {
                     }
 
                     .main_heading {
-                        font-size: 50px;
+                        font-size: 40px;
                         font-weight: 800;
                     }
 
                     .wrapper {
                         display: flex;
                         justify-content: center;
+                        color: white;
                     }
 
                     .my_intro {
@@ -48,8 +50,8 @@ function HomePage() {
             </style>
             <div className="wrapper">
                 <div className="body">
-                    <div className="main_heading">Hello</div>
-                    <div>Thanks for visiting!</div>
+                    <div className="main_heading">Welcome to my page!</div>
+                    <ContactMe />
                     <div className="my_intro">
                         I am Kai, currently a year 2 cs student at NTU, an
                         aspiring Software Engineer, interested in Frontend /

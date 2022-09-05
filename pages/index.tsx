@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import HomePage from "./../components/HomePage";
 import NavBar from "./../components/NavBar";
 import AboutMe from "./../components/AboutMe";
+import ProjectComponent from "./../components/ProjectComponent";
 
 const Home: NextPage = () => {
     return (
@@ -17,9 +18,7 @@ const Home: NextPage = () => {
             <style jsx>
                 {`
                     .mainPage {
-                        background: #fbcbc9;
-                        height: 100vh;
-                        width: 100vw;
+                        background: #0b101a;
                     }
                 `}
             </style>
