@@ -6,6 +6,7 @@ import HomePage from "./../components/HomePage";
 import NavBar from "./../components/NavBar";
 import AboutMe from "./../components/AboutMe";
 import ProjectComponent from "./../components/ProjectComponent";
+import { useState, createContext } from "react";
 
 const Home: NextPage = () => {
     return (

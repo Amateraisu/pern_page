@@ -15,6 +15,18 @@ const projects: projectObject[] = [
             "https://github.com/KaiKaizxc/Trading-simulator/blob/main/stock_exchange%20(1).ipynb",
     },
     {
+        projectTitle: "Titanic survival prediction",
+        projectDescription:
+            "Analysis of passengers of the titanic to predict their survival",
+        projectLink: "https://github.com/KaiKaizxc/Titanic_survival_prediction",
+    },
+    {
+        projectTitle: "Writings Classifier",
+        projectDescription:
+            "Usage of Standard Gradient Descent to classify numbers",
+        projectLink: "https://github.com/KaiKaizxc/Classifier",
+    },
+    {
         projectTitle: "Spam Detection",
         projectDescription:
             "Use of sklearn and Math to allow spam detection on a Bayes model. Accuracy of 72% , Sensitivity of 99% , Specificity of 68%, Precision of 32%. (Not tuned)",
