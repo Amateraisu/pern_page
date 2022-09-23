@@ -71,7 +71,19 @@ function AboutMe() {
     return (
         <>
             <div className="wrapper">
-                <div className="my_projects">My projects</div>
+                <span className="title">My Projects</span>
+                <div className="my_projects">
+                    <div className="labels">
+                        <div className="icon_title Frontend">Frontend</div>
+
+                        <div className="icon_title Machine_Learning">
+                            Machine Learning
+                        </div>
+
+                        <div className="icon_title Maths">Math</div>
+                    </div>
+                </div>
+
                 <div className="body">
                     {projects.map((project, index) => {
                         return (
@@ -96,6 +108,50 @@ function AboutMe() {
                         padding: 0;
                         background-color: #161e30;
                         overflow-x: hidden;
+                    }
+
+                    .title {
+                        font-size: 32px;
+                        color: #6af5ee;
+                        padding: 20px;
+                    }
+
+                    .label {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                    }
+
+                    .Frontend {
+                        background-color: rgba(53, 173, 109, 0.8);
+                    }
+
+                    .Machine_Learning {
+                        background-color: rgba(246, 124, 63, 0.83);
+                    }
+
+                    .Maths {
+                        background-color: rgba(178, 37, 208, 1);
+                    }
+
+                    .labels {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                    }
+
+                    .icon_title {
+                        height: 40px;
+                        width: 200px;
+                        font-size: 22px;
+                        color: white;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 10px;
                     }
 
                     .my_projects {
