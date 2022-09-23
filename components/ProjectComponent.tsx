@@ -36,7 +36,6 @@ function ProjectComponent({
                         display: flex;
                         padding: 22px;
                         cursor: pointer;
-                        height: 95px;
                     }
 
                     .wrapper:hover {
@@ -92,6 +91,10 @@ function ProjectComponent({
 
                         .project_description {
                             flex-basis: 70%;
+                        }
+
+                        .wrapper {
+                            height: 95px;
                         }
                     }
                 `}

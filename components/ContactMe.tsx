@@ -10,7 +10,8 @@ function ContactMe() {
                 {`
                     .wrapper {
                         background-position: center;
-                        transition: background 1s;
+                        transition: 0.5s ease-in-out;
+                        border-radius: 10px;
 
                         text-align: center;
                         display: flex;
@@ -30,7 +31,7 @@ function ContactMe() {
                     .wrapper:active {
                         background-color: #6eb9f7;
                         background-size: 100%;
-                        transition: background 0s;
+                        transition: 0.5s ease-in-out;
                     }
                     button {
                         width: 120px;

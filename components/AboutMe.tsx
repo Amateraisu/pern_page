@@ -9,6 +9,14 @@ interface projectObject {
 
 const projects: projectObject[] = [
     {
+        projectTitle: "Login Authentication with database",
+        projectDescription:
+            "Login Authentication (Name, email , password + profile picture) with NoSQL Firebase and Next js. Currently unavailable, maybe interview me to see it 8)",
+        projectLink:
+            "https://github.com/KaiKaizxc/Trading-simulator/blob/main/stock_exchange%20(1).ipynb",
+        projectType: "Frontend",
+    },
+    {
         projectTitle: "Stock Market Trading Simulator",
         projectDescription:
             "Simulation of the stock market using basic Data Structures and Algorithms. Supports Limit / Market Buy and Sell, current orders",

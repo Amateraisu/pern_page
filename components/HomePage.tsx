@@ -30,7 +30,7 @@ function HomePage() {
                         align-items: center;
 
                         height: 600px;
-                        width: 500px;
+                        width: 600px;
                     }
 
                     .main_heading {
@@ -54,9 +54,14 @@ function HomePage() {
                     <div className="main_heading">Welcome to my page!</div>
                     <ContactMe />
                     <div className="my_intro">
-                        I am Kai, currently a year 2 cs student at NTU, an
-                        aspiring Software Engineer, interested in Frontend /
-                        Machine Learning Engineering
+                        <div>
+                            I am Kai, a year 2 cs student at NTU, aspiring
+                            Software Engineer.
+                        </div>
+                        <div>
+                            Interests: Frontend, Machine Learning, Computer
+                            Networks, Data Mining
+                        </div>
                     </div>
                 </div>
             </div>
