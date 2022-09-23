@@ -4,6 +4,7 @@ interface projectObject {
     projectTitle: string;
     projectDescription: string;
     projectLink: string;
+    projectType: string;
 }
 
 const projects: projectObject[] = [
@@ -13,18 +14,21 @@ const projects: projectObject[] = [
             "Simulation of the stock market using basic Data Structures and Algorithms. Supports Limit / Market Buy and Sell, current orders",
         projectLink:
             "https://github.com/KaiKaizxc/Trading-simulator/blob/main/stock_exchange%20(1).ipynb",
+        projectType: "Maths",
     },
     {
         projectTitle: "Titanic survival prediction",
         projectDescription:
             "Analysis of passengers of the titanic to predict their survival",
         projectLink: "https://github.com/KaiKaizxc/Titanic_survival_prediction",
+        projectType: "Machine_Learning",
     },
     {
         projectTitle: "Writings Classifier",
         projectDescription:
             "Usage of Standard Gradient Descent to classify numbers",
         projectLink: "https://github.com/KaiKaizxc/Classifier",
+        projectType: "Machine_Learning",
     },
     {
         projectTitle: "Spam Detection",
@@ -32,18 +36,21 @@ const projects: projectObject[] = [
             "Use of sklearn and Math to allow spam detection on a Bayes model. Accuracy of 72% , Sensitivity of 99% , Specificity of 68%, Precision of 32%. (Not tuned)",
         projectLink:
             "https://github.com/KaiKaizxc/Spam_detection_multinomial_model",
+        projectType: "Machine_Learning",
     },
     {
         projectTitle: "Advice Generator",
         projectDescription:
             "Fetch quotes from an API quote generator and generate randomly on click",
         projectLink: "https://lkquotegenerator.netlify.app/",
+        projectType: "Frontend",
     },
     {
         projectTitle: "Conway's Game Of Life Visualizer",
         projectDescription:
             "A minigame to visualize conway's algorithm. Hover over it to make the cell alive, and click start and watch",
         projectLink: "https://gameoflifebyconway.netlify.app/",
+        projectType: "Frontend",
     },
 
     {
@@ -51,12 +58,14 @@ const projects: projectObject[] = [
         projectDescription:
             "An analytics board created using graphing libraries to visualize the Gotchiverse economy",
         projectLink: "https://gotchiverse-analytics.vercel.app/",
+        projectType: "Frontend",
     },
 
     {
         projectTitle: "Social media app",
         projectDescription: "A CSS experiment with Material UI ",
         projectLink: "https://reactmui.000webhostapp.com/",
+        projectType: "Frontend",
     },
 
     {
@@ -64,6 +73,7 @@ const projects: projectObject[] = [
         projectDescription:
             "My first ever project with vanilla javascript, basically whack-a-mole game",
         projectLink: "https://whacknemy.netlify.app/",
+        projectType: "Frontend",
     },
 ];
 
@@ -74,13 +84,13 @@ function AboutMe() {
                 <span className="title">My Projects</span>
                 <div className="my_projects">
                     <div className="labels">
-                        <div className="icon_title Frontend">Frontend</div>
+                        <div className="icon Frontend">Frontend</div>
 
-                        <div className="icon_title Machine_Learning">
+                        <div className="icon Machine_Learning">
                             Machine Learning
                         </div>
 
-                        <div className="icon_title Maths">Math</div>
+                        <div className="icon Maths">Math</div>
                     </div>
                 </div>
 
@@ -92,6 +102,7 @@ function AboutMe() {
                                 projectTitle={project.projectTitle}
                                 projectDescription={project.projectDescription}
                                 projectLink={project.projectLink}
+                                projectType={project.projectType}
                             />
                         );
                     })}
@@ -142,16 +153,16 @@ function AboutMe() {
                         gap: 20px;
                     }
 
-                    .icon_title {
-                        height: 40px;
-                        width: 200px;
+                    .icon {
                         font-size: 22px;
+                        width: 200px;
                         color: white;
 
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         border-radius: 10px;
+                        padding: 10px;
                     }
 
                     .my_projects {
@@ -163,6 +174,9 @@ function AboutMe() {
                     .body {
                         display: flex;
                         flex-direction: column;
+                        gap: 20px;
+                        margin: 20px 0px 20px 0px;
+                        padding: 10px;
                     }
                 `}
             </style>
