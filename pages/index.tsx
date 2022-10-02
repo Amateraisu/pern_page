@@ -20,6 +20,11 @@ const Home: NextPage = () => {
                 {`
                     .mainPage {
                         background: #0b101a;
+                        width: 100vw;
+                        height: 100vh;
+                        padding: 0;
+                        margin: 0;
+                        overflow-x: hidden;
                     }
                 `}
             </style>
