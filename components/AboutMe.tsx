@@ -13,7 +13,7 @@ const projects: projectObject[] = [
         projectDescription:
             "Login Authentication (Name, email , password + profile picture) with NoSQL Firebase and Next js. Currently unavailable, maybe interview me to see it 8)",
         projectLink:
-            "https://github.com/KaiKaizxc/Trading-simulator/blob/main/stock_exchange%20(1).ipynb",
+            "https://github.com/KaiKaizxc",
         projectType: "Frontend",
     },
     {
