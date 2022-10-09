@@ -16,12 +16,12 @@ const buttonObjects: buttonObject[] = [
     },
     {
         imageLink: "Kai__resume.pdf",
-        imageDirectory: "/images/resume.png",
+        imageDirectory: "/images/resume_blue.png",
         textContent: "Resume",
     },
     {
         imageLink: "https://github.com/KaiKaizxc",
-        imageDirectory: "/images/github.png",
+        imageDirectory: "/images/github_blue.png",
         textContent: "GitHub",
     },
 ];
