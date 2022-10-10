@@ -11,6 +11,11 @@ interface buttonObject {
 
 const buttonObjects: buttonObject[] = [
     {
+        imageLink: "/Blog",
+        imageDirectory: "/images/bookmark.png",
+        textContent: "Blog",
+    },
+    {
         imageLink: "https://www.linkedin.com/in/kaikaii/",
         imageDirectory: "/images/linkedin.png",
         textContent: "Linkedln",
