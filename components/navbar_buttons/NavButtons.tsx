@@ -1,5 +1,6 @@
 import Image from "next/image";
 /// <reference types="styled-jsx" />
+import Link from "next/link";
 
 interface NavButtonsProps {
     imageLink: string;
@@ -14,12 +15,14 @@ function NavButtons({
 }: NavButtonsProps) {
     return (
         <section>
-            <div className="wrapper">
-                <a href={imageLink} className="tag">
-                    <Image src={imageDirectory} width={30} height={30} />
-                    <div>{textContent}</div>
-                </a>
-            </div>
+            <Link href={imageLink}>
+                <div className="wrapper">
+                    <div className="tag">
+                        <Image src={imageDirectory} width={30} height={30} />
+                        <div>{textContent}</div>
+                    </div>
+                </div>
+            </Link>
 
             <style jsx>{`
                 .wrapper {

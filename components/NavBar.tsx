@@ -1,6 +1,7 @@
 /// <reference types="styled-jsx" />
 import Image from "next/image";
 import NavButtons from "./navbar_buttons/NavButtons";
+import Link from "next/link";
 
 interface buttonObject {
     imageLink: string;
