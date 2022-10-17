@@ -55,12 +55,12 @@ function HomePage() {
                     <ContactMe />
                     <div className="my_intro">
                         <div>
-                            I am Kai, a year 2 cs student at NTU, aspiring
-                            Software Engineer.
+                            I'm Kai, a year 2 CS at NTU, aspiring Software
+                            Engineer.
                         </div>
                         <div>
                             Interests: Frontend, Machine Learning, Computer
-                            Networks, Data Mining
+                            Networks, Data Mining, Linear Algebra, Statistics
                         </div>
                     </div>
                 </div>
