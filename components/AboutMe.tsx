@@ -9,11 +9,23 @@ interface projectObject {
 
 const projects: projectObject[] = [
     {
+        projectTitle: "Anime Recommendations",
+        projectDescription:
+            "Recommend new Animes based on your anime using Cosine Similarity",
+        projectLink: "https://github.com/KaiKaizxc/DS_ML_Projects",
+        projectType: "Machine_Learning",
+    },
+    {
+        projectTitle: "EDA of NFTS using MySQL",
+        projectDescription: "Including a SQL query in a DS EDA",
+        projectLink: "https://github.com/KaiKaizxc/DS_ML_Projects",
+        projectType: "Machine_Learning",
+    },
+    {
         projectTitle: "Login Authentication with database",
         projectDescription:
             "Login Authentication (Name, email , password + profile picture) with NoSQL Firebase and Next js. Currently unavailable, maybe interview me to see it 8)",
-        projectLink:
-            "https://github.com/KaiKaizxc",
+        projectLink: "https://github.com/KaiKaizxc",
         projectType: "Frontend",
     },
     {
