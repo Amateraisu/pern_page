@@ -55,7 +55,7 @@ function HomePage() {
                     <ContactMe />
                     <div className="my_intro">
                         <div>
-                            I'm Kai, a year 2 CS at NTU, aspiring Software
+                            I am Kai, a year 2 CS at NTU, aspiring Software
                             Engineer.
                         </div>
                         <div>
