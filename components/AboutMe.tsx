@@ -22,6 +22,21 @@ const projects: projectObject[] = [
         projectType: "Machine_Learning",
     },
     {
+        projectTitle: "Linear Algebra",
+        projectDescription:
+            "My Study based on the book : No Bullshit to Linear Algebra",
+        projectLink: "https://github.com/KaiKaizxc/Linear-Algebra-",
+        projectType: "Maths",
+    },
+    {
+        projectTitle: "Statistics",
+        projectDescription:
+            "My analysis of statistics based on Elements of Statiscal learning, including R",
+        projectLink: "https://github.com/KaiKaizxc/Statistical_learning-",
+        projectType: "Maths",
+    },
+
+    {
         projectTitle: "Login Authentication with database",
         projectDescription:
             "Login Authentication (Name, email , password + profile picture) with NoSQL Firebase and Next js. Currently unavailable, maybe interview me to see it 8)",
