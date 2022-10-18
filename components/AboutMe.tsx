@@ -9,6 +9,14 @@ interface projectObject {
 
 const projects: projectObject[] = [
     {
+        projectTitle: "Machine Learning From Scratch",
+        projectDescription:
+            "Create Machine Learning Algorithms and EDA using pure Numpy, Matplotlib, Pandas and Python. Also my best documented project...",
+        projectLink:
+            "https://github.com/KaiKaizxc/Machine-Learning-From-Scratch-Without-Libraries",
+        projectType: "Machine_Learning",
+    },
+    {
         projectTitle: "Anime Recommendations",
         projectDescription:
             "Recommend new Animes based on your anime using Cosine Similarity",
