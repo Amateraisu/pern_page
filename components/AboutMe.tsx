@@ -16,12 +16,6 @@ const projects: projectObject[] = [
         projectType: "Machine_Learning",
     },
     {
-        projectTitle: "EDA of NFTS using MySQL",
-        projectDescription: "Including a SQL query in a DS EDA",
-        projectLink: "https://github.com/KaiKaizxc/DS_ML_Projects",
-        projectType: "Machine_Learning",
-    },
-    {
         projectTitle: "Linear Algebra",
         projectDescription:
             "My Study based on the book : No Bullshit to Linear Algebra",
@@ -51,20 +45,7 @@ const projects: projectObject[] = [
             "https://github.com/KaiKaizxc/Trading-simulator/blob/main/stock_exchange%20(1).ipynb",
         projectType: "Maths",
     },
-    {
-        projectTitle: "Titanic survival prediction",
-        projectDescription:
-            "Analysis of passengers of the titanic to predict their survival",
-        projectLink: "https://github.com/KaiKaizxc/Titanic_survival_prediction",
-        projectType: "Machine_Learning",
-    },
-    {
-        projectTitle: "Writings Classifier",
-        projectDescription:
-            "Usage of Standard Gradient Descent to classify numbers",
-        projectLink: "https://github.com/KaiKaizxc/Classifier",
-        projectType: "Machine_Learning",
-    },
+
     {
         projectTitle: "Spam Detection",
         projectDescription:
