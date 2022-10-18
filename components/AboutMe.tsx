@@ -29,6 +29,14 @@ const projects: projectObject[] = [
         projectLink: "https://github.com/KaiKaizxc/Statistical_learning-",
         projectType: "Maths",
     },
+    {
+        projectTitle: "Spam Detection",
+        projectDescription:
+            "Tokenized, stemmed words to classify messages as spam or not from scratch using Maths",
+        projectLink:
+            "https://github.com/KaiKaizxc/Spam_detection_multinomial_model",
+        projectType: "Machine_Learning",
+    },
 
     {
         projectTitle: "Login Authentication with database",
@@ -45,13 +53,10 @@ const projects: projectObject[] = [
             "https://github.com/KaiKaizxc/Trading-simulator/blob/main/stock_exchange%20(1).ipynb",
         projectType: "Maths",
     },
-
     {
-        projectTitle: "Spam Detection",
-        projectDescription:
-            "Use of sklearn and Math to allow spam detection on a Bayes model. Accuracy of 72% , Sensitivity of 99% , Specificity of 68%, Precision of 32%. (Not tuned)",
-        projectLink:
-            "https://github.com/KaiKaizxc/Spam_detection_multinomial_model",
+        projectTitle: "EDA of NFTS using MySQL",
+        projectDescription: "Querying from a local database to do EDA",
+        projectLink: "https://github.com/KaiKaizxc/DS_ML_Projects",
         projectType: "Machine_Learning",
     },
     {
