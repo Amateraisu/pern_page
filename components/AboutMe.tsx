@@ -9,6 +9,13 @@ interface projectObject {
 
 const projects: projectObject[] = [
     {
+        projectTitle: "Job Search Bot",
+        projectDescription:
+            "Send Job notifications to Phone using Twilio and BeautifulSoup, so me and my friends wont be as depressed. Deployed using Heroku. ",
+        projectLink: "",
+        projectType: "Machine_Learning",
+    },
+    {
         projectTitle: "Machine Learning From Scratch",
         projectDescription:
             "Create Machine Learning Algorithms and EDA using pure Numpy, Matplotlib, Pandas and Python. Also my best documented project...",
@@ -17,9 +24,9 @@ const projects: projectObject[] = [
         projectType: "Machine_Learning",
     },
     {
-        projectTitle: "Anime Recommendations",
+        projectTitle: "Various ML DS projects",
         projectDescription:
-            "Recommend new Animes based on your anime using Cosine Similarity",
+            "Usage of various algorithms and deep learning to predict / classify data",
         projectLink: "https://github.com/KaiKaizxc/DS_ML_Projects",
         projectType: "Machine_Learning",
     },
