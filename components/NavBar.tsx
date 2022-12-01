@@ -16,7 +16,7 @@ const buttonObjects: buttonObject[] = [
         textContent: "Linkedln",
     },
     {
-        imageLink: "ress_lk.pdf",
+        imageLink: "resume_linkai.pdf",
         imageDirectory: "/images/resume_blue.png",
         textContent: "Resume",
     },
